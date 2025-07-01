@@ -1,9 +1,9 @@
 # Classroom Feedback Form Generator
 
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/classroom-feedback-generator)
-![GitHub contributors](https://img.shields.io/github/contributors/yourusername/classroom-feedback-generator)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/classroom-feedback-generator?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/classroom-feedback-generator?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/1102-0125/classroom-feedback-generator)
+![GitHub contributors](https://img.shields.io/github/contributors/1102-0125/classroom-feedback-generator)
+![GitHub stars](https://img.shields.io/github/stars/1102-0125/classroom-feedback-generator?style=social)
+![GitHub forks](https://img.shields.io/github/forks/1102-0125/classroom-feedback-generator?style=social)
 
 A powerful desktop application for generating personalized student feedback forms from Excel data. Ideal for teachers and educators who need to create detailed, professional feedback reports efficiently.
 
