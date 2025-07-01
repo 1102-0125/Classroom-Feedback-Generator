@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Classroom feedback form</title>
+  <style>
+    .logo-container {
+      position: absolute;
+      top: 36px;
+      right: 50px;
+    }
+    .logo {
+      max-width: 150px;
+      height: auto;
+    }
+    .header-container {
+      text-align: center;
+      margin-top: 100px;
+    }
+    .student-info {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 15px auto;
+      padding: 15px;
+    }
+    .info-column {
+      flex-basis: 30%;
+      text-align: center;
+      border-radius: 6px;
+      color: #333;
+    }
+    .separator {
+    border-top: 2px solid #000;
+    margin: 8px 7.2%; /* 保持间隔不变 */
+}
+    .dashed-separator {
+      border-top: 1px dashed #999;
+      margin: 10px 7.2%;
+    }
+
+    /* 课程部分布局 */
+    .course-block {
+      max-width: 680px;
+      margin: 0 auto 2px;
+      padding: 0px 0;
+    }
+    .course-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: -8px 0;
+    }
+    .course-name {
+      flex-basis: 25%;
+      text-align: center;
+
+    }
+    .course-ratings {
+      display: flex;
+      flex-basis: 75%;
+      justify-content: space-between;
+      margin:0px auto;
+      padding: 0px 0px;
+    }
+    .rating-item {
+      flex-basis: 30%;
+      text-align: center;
+    }
+    .course-comment {
+      max-width: 680px;
+      margin:-6px auto;
+      padding: -4px 0px;
+      text-align: left;
+    }
+
+    .note {
+      display: flex;
+      justify-content: space-between;
+      max-width: 680px;
+      margin: -5px auto;
+      color: #909090;
+    }
+    .content {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-container">
+    <h2 style="font-weight: bold">Classroom feedback form（[date]）</h2>
+  </div>
+
+  <div class="student-info">
+    <div class="info-column">
+      <h4>Student Name</h4>
+      <p>[name]</p>
+    </div>
+    <div class="info-column">
+      <h4>Pinyin</h4>
+      <p>[pinyin]</p>
+    </div>
+    <div class="info-column">
+      <h4>English Name</h4>
+      <p>[engName]</p>
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
+  <!-- 课程内容将通过Python动态生成 -->
+  <div id="course-section"></div>
+
+  <div class="note">
+    <p>Note: Grading instructions for class and assignment performance: 5 points = Excellent, 4 points = Good, 3 points = room for improvement, 2 points = unsatisfactory, 1 point = very unsatisfactory, 0 points = No participation</p>
+  </div>
+</body>
+</html>
